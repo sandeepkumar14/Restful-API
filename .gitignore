@@ -39,5 +39,4 @@ production/
 .css.map
 npm-debug.log
 development/components/custom_libs/
-config.js
 app/
