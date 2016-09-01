@@ -1,0 +1,44 @@
+# Git have its own bulit in compression method, so it's always better to unpack and commit files with following extensions.
+««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases
+«««««««««««««««««««««
+*.log
+*.sql
+*.sqllite
+
+
+OS generated files
+«««««««««««««««««
+.DS_Store
+.DS_Store?
+._*
+.Spotlight_V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.tmp
+
+
+#Build System Files that will be ignored by git
+««««««««««««««««««««««««««««««««««««««««««««««««
+node_modules/
+bower_components/
+development/components/lib/
+production/
+.sass-cache
+.css.map
+npm-debug.log
+development/components/custom_libs/
+server.js
+config.js
+app/

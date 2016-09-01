@@ -1,0 +1,35 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Gulp Workflow",
+  "main": "gulpfile.js",
+  "engines": {
+    "node": "6.3.1"
+  },
+  "author": "Sandeep Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.5.10"
+  }
+}
