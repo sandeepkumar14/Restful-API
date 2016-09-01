@@ -28,14 +28,14 @@ app.use(bodyParser.urlencoded({
 app.use(morgan('dev'));
 
 // static files
-app.use(express.static(__dirname + '/development'));
+app.use(express.static(__dirname + '/public'));
 
 var api= require("./app/routes/api.js")(app, express);
 app.use('/api', api);
 
 
 app.get("*", function(req, res){
-   res.sendFile(__dirname + "/development/build/index.html");
+   res.sendFile(__dirname + "/public/index.html");
 });
   
 
